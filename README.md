@@ -15,13 +15,13 @@ Chapters:
 
 [06 - ]()
 
-[07 - ]()
+[07 - Multiplication](https://www.youtube.com/watch?v=_srNQCP8LpI)
 
 [08 - ]()
 
-[09 - ]()
+[09 - Working With Binary Numbers](https://www.youtube.com/watch?v=V_EraAxJnwk)
 
-[10 - ]()
+[10 - Getting User Input (STDIN)](https://www.youtube.com/watch?v=2sFn3Awys2E)
 
 [11 - Mini Project](https://www.youtube.com/watch?v=j8ubw4W_g2g)
 

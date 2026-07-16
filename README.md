@@ -1,7 +1,8 @@
 # learn-x86-assembly-series-examples
-Lesson-by-lesson examples from the YouTube series by [Edward Kaboi](https://www.youtube.com/@kabwoy254/videos)
 
-Series Episodes:
+## Lesson-by-lesson examples from the YouTube series by [Edward Kaboi](https://www.youtube.com/@kabwoy254/videos)
+
+## Series Episodes:
 
 [01 - Hello World](https://www.youtube.com/watch?v=kdR5DhJJiR0)
 
@@ -28,3 +29,37 @@ Series Episodes:
 [12 - Jumps & Labels](https://www.youtube.com/watch?v=WU3KjDKs9e0)
 
 [13 - Intro to Comparisons](https://www.youtube.com/watch?v=ddXMcVywOag)
+
+---
+
+## Compiling, linking and running an assembly program
+
+### Use `nasm` to compile:
+
+```bash
+nasm -f elf32 -o main.o main.s
+
+```
+
+### Use `ld` to link:
+
+```bash
+ld -m elf_i386 -o main main.o
+
+```
+
+### Use `./main` to run the program.
+
+### Use `gdb` to step through and debug:
+
+```bash
+gdb main
+...
+(gdb) layout asm
+(gdb) break _start
+(gdb) run
+(gdb) stepi
+(gdb) info register eax
+(gdb) info register al
+
+```

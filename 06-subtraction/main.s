@@ -15,8 +15,8 @@ mov eax, [num1]         ; square brackets means contents of that memory address
 sub eax, [num2]   
 mov [result], eax       
 
-; to see the value in result, link with -g flag
-; ld -m elf_i386 -g main.o -o main
+; to see the value in result, compile with -g flag
+; nasm -f elf32 -g -o main.o main.s
 ; then (gdb) print /d (int) result
 
 int 80h

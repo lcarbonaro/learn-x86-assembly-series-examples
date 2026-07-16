@@ -16,6 +16,7 @@ sub eax, [num2]
 mov [result], eax       
 
 ; to see the value in result, compile with -g flag
+; to generate debug information
 ; nasm -f elf32 -g -o main.o main.s
 ; then (gdb) print /d (int) result
 

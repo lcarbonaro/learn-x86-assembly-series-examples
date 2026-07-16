@@ -59,7 +59,7 @@ gdb main
 (gdb) break _start
 (gdb) run
 (gdb) stepi
-(gdb) info register eax
+(gdb) info registers
 (gdb) info register al
 
 ```

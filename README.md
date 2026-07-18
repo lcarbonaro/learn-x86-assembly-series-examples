@@ -30,6 +30,10 @@
 
 [13 - Intro to Comparisons](https://www.youtube.com/watch?v=ddXMcVywOag)
 
+[14 - Comparison Jump - JNE](https://www.youtube.com/watch?v=NRG99cDXze4)
+
+[15 - Comparison Jump - JG](https://www.youtube.com/watch?v=pxzLKcS-C10)
+
 ---
 
 ## Compiling, linking and running an assembly program

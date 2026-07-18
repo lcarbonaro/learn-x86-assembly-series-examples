@@ -10,27 +10,27 @@ section .text
 global _start
 
 _start:
-mov eax, 100
+mov eax, 18
 mov ebx, 10
-cmp eax , ebx
+cmp eax ,ebx
 
-je equal
+je  equal
 jne notEqual
 
 equal:
-mov eax,4
-mov ebx,1
-mov ecx,msgEq
-mov edx,msgEqLen
+mov eax, 4
+mov ebx, 1
+mov ecx, msgEq
+mov edx, msgEqLen
 int 80h
 
 jmp exit
 
 notEqual:
-mov eax,4
-mov ebx,1
-mov ecx,msgNotEq
-mov edx,msgNotEqLen
+mov eax, 4
+mov ebx, 1
+mov ecx, msgNotEq
+mov edx, msgNotEqLen
 int 80h
 
 exit:

@@ -34,6 +34,10 @@
 
 [15 - Comparison Jump - JG](https://www.youtube.com/watch?v=pxzLKcS-C10)
 
+[16 - Loops](https://www.youtube.com/watch?v=7TurkrTS81o)
+
+[17 - Calling C Functions](https://www.youtube.com/watch?v=3rdIROizbBk)
+
 ---
 
 ## Compiling, linking and running an assembly program

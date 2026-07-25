@@ -8,11 +8,15 @@ extern exit      ; exit() C function
 global main      ; must be main (not _start) when calling C functions
 
 main:
-push msg
-call printf
+push msg         ; push address of msg variable onto stack
+    
+                    
+call printf      ; will get msg via memeory address on top of the stack
+                 ; and calls the built-in printf() C function
 
-push 0
-call exit
+push 0           ; push return code of 0 onto stack
+call exit        ; and calls the built-in exit() C function
+
 
 section .note.GNU-stack  ; to clear linker warning
 

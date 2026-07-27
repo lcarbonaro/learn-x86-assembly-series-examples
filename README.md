@@ -38,6 +38,10 @@
 
 [17 - Calling C Functions](https://www.youtube.com/watch?v=3rdIROizbBk)
 
+[18 - Calling Custom C Functions](https://www.youtube.com/watch?v=1SQ-aX73oKk)
+
+[19 - Calling Custom C Functions 2](https://www.youtube.com/watch?v=pzA3qMGIj00)
+
 ---
 
 ## Compiling, linking and running an assembly program
